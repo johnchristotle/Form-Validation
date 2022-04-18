@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link 
+    rel="stylesheet"
+    href="style.css"
+    >
+
+    <script type="text/javascript" src="/main.js"></script>
+    
+    <title>Form Validation</title>
+    
+    
+</head>
+<body>
+
+  <div class="container">
+    <div class="content">
+
+    <div class="logo">
+      <h2>TotleSoft</h2>
+      
+    </div>
+
+    <div class="image"></div>
+
+    <div class="text">
+      Start free today and receive <br>
+      A Free Programming Handbook! 
+    </div>
+
+    <div class="me">Designed by: <a href="http://github.com/johnchristotle" target="_blank">Agholor Christotle</a></div>
+
+  </div>
+
+    <form id="form" action="" method="">
+
+    <div class="social">
+
+      <div class="title">Get Started</div>
+      
+
+      <div class="'question">
+        Already Created an Account? <br>
+        <span>Sign In</span>
+      </div>
+
+      <div class="btn">
+        <div class="btn-1">
+          <img src="https://img.icons8.com/color/30/000000/google-logo.png">
+          Sign Up
+        </div>
+
+        <div class="btn-2">
+          <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png">
+          Sign Up
+        </div>
+      </div>
+
+      <div class="or">Or</div>
+
+    </div>
+
+      <!-- Username Imput starts here -->
+      <div>
+
+        <label for="username">User Name</label>
+        <i class="fas fa-user"></i>
+
+        <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Christotle Agholor"
+        >
+
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="fas fa-check-circle success-icon"></i>
+
+        <div class="error"></div>
+
+      </div>
+      <!-- Username Imput ends here -->
+
+      <!-- E-mail Imput starts here -->
+      <div>
+
+        <label for="email">Email</label>
+        <i class="fas fa-envelope"></i>
+
+        <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="xyz@gmail.com"
+        >
+
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="fas fa-check-circle success-icon"></i>
+
+        <div class="error"></div>
+
+
+      </div>
+      <!-- E-mail Imput ends here -->
+
+      <!-- Password Imput starts here -->
+      <div>
+
+        <label for="password">Password</label>
+        <i class="fas fa-lock"></i>
+
+        <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+        >
+
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="fas fa-check-circle success-icon"></i>
+
+        <div class="error"></div>
+
+
+      </div>
+      <!-- Password Imput ends here -->
+
+      <button id="btn" type="submit">Submit</button>
+
+
+    </form>
+    
+  </div>
+    
+  
+</body>
+</html>

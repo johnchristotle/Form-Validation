@@ -1,7 +1,7 @@
 # JavaScript Form Validation #
 A responsive Login Page built with HTML, CSS, and JavaScript.
 
-### Marketplace
+### Screenshot ###
 
 ![Login Page](./screenshot.jpg)
 

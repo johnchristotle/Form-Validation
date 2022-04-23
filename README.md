@@ -13,9 +13,6 @@ Adding a social media button
 Adding the images
 Media queries for the mobile version (responsive)
 
-## View Live Site: ##
-https://form-validation-christotle.s3.eu-west-2.amazonaws.com/index.html
-
 ## To View The Site ##
 Follow these steps: 
 
